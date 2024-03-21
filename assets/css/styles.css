@@ -208,6 +208,7 @@ img {
   transition: right .4s;
 }
 
+
 .nav__logo {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
