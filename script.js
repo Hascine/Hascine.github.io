@@ -22,8 +22,8 @@ const db_game = [
     ],
   },
   {
-    id: "003VL",
-    gameName: "Valorant",
+    id: "003LL",
+    gameName: "League of Legends",
     product: [
       ["170 Diamonds", 43_000],
       ["305 Diamonds", 79_000],
@@ -44,8 +44,8 @@ const db_game = [
     ],
   },
   {
-    id: "005PM",
-    gameName: "PUBG Mobile",
+    id: "005CM",
+    gameName: "Call of Duty Mobile",
     product: [
       ["170 Diamonds", 43_000],
       ["305 Diamonds", 79_000],
@@ -55,3 +55,5 @@ const db_game = [
     ],
   },
 ];
+
+let db_order = [];
