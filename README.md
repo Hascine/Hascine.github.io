@@ -1,2 +1,0 @@
-# Tokopaedi
-Project Hackathon
