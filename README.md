@@ -1,4 +1,0 @@
-# Tokopaedi
-
-Project Hackathon
-awalan
