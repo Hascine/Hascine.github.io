@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/0f04580bb5.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="header">
-            <p class="logo">TOKOPAEDI</p>
-            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0f04580bb5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <p class="logo">TOKOPAEDI</p>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p id="count">0</p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">
+        <div class="head"><p>Keranjang Gue</p></div>
+        <div id="cartItem">Keranjang lo masih kosong tuh, Ngab</div>
+        <div class="foot">
+          <h3>Total</h3>
+          <h2 id="total">Rp. 0,00</h2>
         </div>
-        <div class="container">
-            <div id="root"></div>
-            <div class="sidebar">
-                <div class="head"><p>Keranjang Gue</p></div>
-                <div id="cartItem">Keranjang lo masih kosong tuh, Ngab</div>
-                <div class="foot">
-                    <h3>Total</h3>
-                    <h2 id="total">Rp. 0,00</h2>
-                </div>
-            </div>
-        </div>
-        <script src="addToCart.js"></script>
-    </body>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
